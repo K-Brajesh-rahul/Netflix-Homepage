@@ -1,0 +1,211 @@
+body {
+     overflow-x: hidden
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+     /* background-color: blue; */
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+     /* background-color: blue; */
+    background-image: linear-gradient(to top, rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c0a32732-b033-43b3-be2a-8fee037a6146/2fe6e3c0-5613-4625-a0c1-3d605effd10b/IN-en-20210607-popsignuptwoweeks-perspective_alpha_website_small.jpg');
+
+}
+
+.logo {
+    width: 120px;
+}
+
+.top-right {
+    display: flex;
+    align-items: center;
+}
+
+#language-select {
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.sign-in-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 50px;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.email-input {
+    padding: 10px;
+    margin: 20px 0;
+    width: 300px;
+}
+
+.get-started-btn {
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.hover-link {
+    color: blue; /* Initial link color */
+    text-decoration: none; /* Remove underline if needed */
+}
+
+.hover-link:hover {
+    color: white; /* Color when hovered */
+}
+.button {
+   background-color: red;
+   padding: 10px 20px;
+   display: inline-block;
+   text-align: center;
+   border-radius: 5px;
+   text-decoration: none;
+   color: blue; /* Initial link color */
+ }
+.button:hover {
+  background-color: red; /* Keep the button background red */
+  color: white;
+  text-decoration: underline;
+}
+
+.section-1, .section-2, .section-3, .section-4 {
+    padding: 50px;
+    text-align: center;
+}
+
+.round-box {
+    background-color:#00203FFF;
+    color:#ADEFD1FF;
+    border-radius: 80%;
+    padding: 65px;
+    margin: 20px;
+    display: inline-block;
+    width:150px;
+     transition: transform 0.3s ease-in-out;
+    height: 150px;
+    vertical-align: top;
+}
+.round-box:hover {
+    transform: scale(1.1);
+    
+}
+.section-2 .round-box {
+width: 200px;
+height: 200px;
+}
+
+.dropdown {
+background-color:#444;
+margin: 10px 0;
+text-align: center;
+}
+
+.dropdown-header {
+background-color:#444;
+padding: 5px;
+border-block-width: medium;
+cursor: pointer;
+display: block;
+justify-content: space-between;
+align-items: center;
+}
+
+.dropdown-content {
+display: none;
+background-color:black;
+color:white;
+padding: 10px;
+margin-top: 5px;
+}
+
+.toggle {
+font-size: 20px;
+}
+
+.footer {
+background-color: #222;
+display:block;
+padding: 10
+0px;
+}
+
+.footer a {
+color: grey;
+text-decoration:centre;
+margin: 0 10px;
+}
+
+.footer .bottom-left {
+display: flex;
+align-items: centre;
+}
+
+.footer .language-select {
+margin-right: 40px;
+}
+
+.footer .footer-logo {
+font-size: 25px;
+}
+.box-1 {
+    background-color:#621c3d;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color:white;
+    height: 20vh;
+    width:100%;
+    border-radius: 80%;
+    padding: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-1:hover {
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.05);
+} 
+
+        .foot-content {
+            background-color: black;
+            height: 90%;
+            width: 100%;
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 1rem;
+            font-weight: lighter;
+        }
+
+        ul {
+            display: grid;
+            grid-row-gap: 1rem;
+            grid-template-columns: auto auto auto;
+            position: relative;
+            right: 2.45rem;
+            margin-top: 3rem;
+            text-decoration: underline darkgray;
+            font-size: 0.87rem;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        

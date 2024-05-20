@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netflix Sign In Page</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+  <div class="image-container">
+    <div class="opacity-container"></div>
+    <img src="netflix-logo (2).png" alt="Netflix logo" class="logo-image">
+    <div class="container">
+      <div class="login-container">
+        <h1>Login</h1>
+        <input name="email" id="email" type="text" placeholder="E-mail or mobile number" class="input" />
+        <input name="password" id="password" type="text" placeholder="password" class="input" />
+        <button class="btn">Enter</button>
+        <div class="line">
+          <input type="checkbox" id="remember" class="checkbox">
+          <label for="remember" class="login-text">Rememeber me</label>
+          <span class="align-right login-text"></span>
+        </div>
+        <div class="line mt-50">
+          <img src="x.avif" alt="Facebook small logo" class="small-logo">
+          <span class="dark-text">Connect on X.com</span>
+        </div>
+        <div class="line mt-20">
+          <span class="dark-big-text">
+            New to Netflix?
+            <a href="Sign-Up.html" class="white-link">Sign up now.</a>.
+          </span>
+        </div>
+        <div class="line mt-20">
+          <span class="dark-text">
+           This page is protected by Google reCAPTCHA to ensure you're not a bot.
+            <a class="blue-link" href="#" id="saiba">Learn more</a>.
+          </span>
+        </div>
+          <div class="accordion">
+            <span class="dark-text">
+             The information collected by Google reCAPTCHA is subject to the Google and is used for providing, maintaining, and improving the reCAPTCHA service and for general security purposes (it is not used for personalised advertising by Google). <a href="#" class="blue-link">Privacy policy</a> e <a href="#" class="blue-link">Terms of service,</a> 
+            </span>
+          </div>
+      </div>
+      <div class="opacity-footer">
+        <p class="dark-big-text">Questions? <a href="tel:0800-761-4631" class="grey-link">Call 000-800-919-1694</a></p>
+        <p class="dark-text footer-links">
+          <a href="#" class="grey-link">FAQ</a>
+          <a href="#" class="grey-link">Connect on facebook</a>
+          <a href="#" class="grey-link">Terms of use</a>
+          <a href="#" class="grey-link">Privacy</a>
+        </p>
+        <p class="dark-text footer-links">
+          <a href="#" class="grey-link">Preferences of cookies</a>
+          <a href="#" class="grey-link">corporate Information</a>
+        </p>
+        <select name="language" id="language">
+          <option value="English" selected>English</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <script>function accordionToggle() {
+  let accordion = document.querySelector('.accordion');
+
+  if (accordion.style.display === 'none' || accordion.style.display === '') {
+    accordion.style.display = 'block';
+  } else {
+    accordion.style.display = 'none';
+  }
+};
+
+window.onload = function() {
+  let a = document.getElementById("saiba");
+
+  a.onclick = function() {
+    accordionToggle();
+    return false;
+  }
+}</script>
+</body>
+</html>

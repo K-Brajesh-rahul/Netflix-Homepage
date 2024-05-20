@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="netflix-logo (2).png" alt="Netflix Logo" class="logo">
+        <div class="top-right">
+          <button class="get-started-btn">Hindi</button></a>
+          <a href="index.html" class="button">English</a>
+          <a href="Sign-Up.html" class="button">साइन इन करें</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="intro-section">
+            <h1>अनलिमिटेड फ़िल्में, टीवी शो, और बहुत कुछ</h1>
+            <h3>₹149 से शुरू होता है. कभी भी कैंसल करें.</h3>
+            <p>देखने के लिए तैयार? अपनी मेंबरशिप बनाने या रीस्टार्ट करने के लिए अपना ईमेल एड्रेस या मोबाइल नंबर डालें.</p>
+            <input type="email" placeholder="ईमेल या फ़ोन नंबर" class="email-input">
+            <a href="Login.html" class="button">शुरू करो</a>
+            
+        </div>
+
+
+        <div class="d-flex p-2 back-black border-top border-bottom border-4 border-dark">
+      <div class="col col-sm-12 col-md-6 my-auto p-5">
+        <div class="box-1">
+            <h1>Netflix का लुत्फ़ उठाएं, शुरुआती कीमत सिर्फ़ ₹149.</h1>
+        </div>
+
+      </div>
+    </div>
+
+
+        <section class="section-2">
+           <div><h2>शामिल होने की ज़्यादा वजहें</h2></div>
+            <div class="round-box"><h1>अपने टीवी पर आनंद लें</h1><p>स्मार्ट टीवी, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray प्लेयर के साथ ही दूसरे डिवाइस पर भी देखें.</p></div>
+            <div class="round-box"><h1>ऑफ़लाइन देखने के लिए अपने शो डाउनलोड करें</h1><p>अपने पसंदीदा शो और फ़िल्में सेव करें, ताकि आप कभी भी इन्हें देख सकें.</p></div>
+            <div class="round-box"><h1>हर जगह देखें</h1><p>बिना ज़्यादा पेमेंट किए, अपने फ़ोन, टैबलेट, लैपटॉप और टीवी पर अनलिमिटेड फ़िल्में और टीवी शो स्ट्रीम करें.</p></div>
+            <div class="round-box"><h1>बच्चों के लिए प्रोफ़ाइल बनाएं</h1><p>बच्चों को अपने पसंदीदा किरदारों के साथ उस रोमांचक सफ़र पर जाने दें जो सिर्फ़ उनके लिए ही है - आपकी मेंबरशिप के साथ फ़्री.</p></div>
+        </section>
+
+        <section class="section-3">
+            <h1>अक्सर पूछे जाने वाले सवाल</h1>
+            <div class="dropdown-container">
+        <div class="dropdown">
+            <div class="dropdown-header" onclick="toggleDropdown(0)">
+                <span class="heading"><h3>Netflix क्या है?</h3></span>
+                <span class="toggle-sign"></span>
+            </div>
+            <div class="dropdown-content">
+                <p>Netflix एक स्ट्रीमिंग सर्विस है जिसके ज़रिए आप हज़ारों इंटरनेट-कनेक्टेड डिवाइस पर तरह-तरह के अवॉर्ड विजेता टीवी शो, फ़िल्में, ऐनिमे, डॉक्यूमेंट्रीज़ का लुत्फ़ उठा सकते हैं.
+
+आप जब चाहें, जितना चाहें, बिना किसी विज्ञापन के देख सकते हैं – सारा कॉन्टेंट बहुत कम मासिक शुल्क पर. खोजने के लिए हमेशा कुछ नया होता है और हर हफ़्ते नए टीवी शो और फ़िल्में जोड़ी जाती हैं!</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown-header" onclick="toggleDropdown(1)">
+                <span class="heading"><h3>Netfix की लागत कितनी है?</h3></span>
+                <span class="toggle-sign"></span>
+            </div>
+            <div class="dropdown-content">
+                <p>Wहर महीने की तय फ़ी देकर अपने स्मार्टफ़ोन, टैबलेट, स्मार्ट टीवी, लैपटॉप, या स्ट्रीमिंग डिवाइस पर Netflix देखें. हर महीने ₹149 से ₹649 तक के प्लान. कोई एक्सट्रा कीमत या कॉन्ट्रैक्ट नहीं.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown-header" onclick="toggleDropdown(2)">
+                <span class="heading"><h3>मैं कहाँ देख सकता हूँ?</h3></span>
+                <span class="toggle-sign"></span>
+            </div>
+            <div class="dropdown-content">
+                <p>कहीं भी, कभी भी देखें अपने पर्सनल कंप्यूटर से या स्मार्ट टीवी, स्मार्टफ़ोन, टैबलेट, स्ट्रीमिंग मीडिया प्लेयर और गेम कंसोल सहित Netflix ऐप ऑफ़र करने वाले किसी भी इंटरनेट-कनेक्टेड डिवाइस पर तुरंत देखने के लिए, वेब पर netflix.com पर अपने Netflix अकाउंट में साइन इन करें.
+
+आप iOS, Android या Windows 10 ऐप से भी अपने पसंदीदा शो डाउनलोड कर सकते हैं. चलते-फिरते और बिना इंटरनेट कनेक्शन के देखने के लिए डाउनलोड का उपयोग करें. Netflix को अपने साथ कहीं भी ले जाएं.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown-header" onclick="toggleDropdown(3)">
+                <span class="heading"><h3>मैं कैसे रद्द करूं?</h3></span>
+                <span class="toggle-sign"></span>
+            </div>
+            <div class="dropdown-content">
+                <p>Netflix लचीला है. कोई परेशान करने वाले कॉन्ट्रैक्ट नहीं और कोई बंधन नहीं हैं. आप आसानी से दो क्लिक में अपना अकाउंट ऑनलाइन कैंसल कर सकते हैं. कोई कैंसलेशन फ़ीस नहीं है – अपना अकाउंट कभी भी शुरू या बंद करें.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown-header" onclick="toggleDropdown(4)">
+                <span class="heading"><h3>मैं Netflix पर क्या देख सकता हूँ?</h3></span>
+                <span class="toggle-sign"></span>
+            </div>
+            <div class="dropdown-content">
+                <p>NNetflix की बहुत बड़ी लाइब्रेरी में फ़ीचर फ़िल्मों, डॉक्यूमेंट्री, टीवी शो, ऐनिमे, अवॉर्ड-विनिंग Netflix ओरिजिनल्स के अलावा और भी बहुत कुछ है. आप जितना चाहें, कभी भी देखें.</p>
+            </div>
+        </div>
+        <div class="dropdown">
+            <div class="dropdown-header" onclick="toggleDropdown(5)">
+                <span class="heading"><h3>क्या Netflix बच्चों के लिए अच्छा है?</h3></span>
+                <span class="toggle-sign"></span>
+            </div>
+            <div class="dropdown-content">
+                <p>Netflix की बहुत बड़ी लाइब्रेरी में फ़ीचर फ़िल्मों, डॉक्यूमेंट्री, टीवी शो, ऐनिमे, अवॉर्ड-विनिंग Netflix ओरिजिनल्स के अलावा और भी बहुत कुछ है. आप जितना चाहें, कभी भी देखें.</p>
+            </div>
+        </div>
+    </div>
+            
+            <input type="email" placeholder="ईमेल या फ़ोन नंबर" class="email-input">
+            <a href="Login.html" class="button">शुरू करो</a>
+        </section>
+        <div class="foot-content">
+            <div class="call">Questions? Call <a>000-800-919-1694</a></div>
+            <div class="about-us">
+                <ul>
+                    <li>FAQ</li>
+                    <li>Media Centre</li>
+                    <li>Ways to Watch</li>
+                    <li>Cookie Preferences</li>
+                    <li>Speed Test</li>
+                    <li>Help Centre</li>
+                    <li>Investor Relations</li>
+                    <li>Terms of Use</li>
+                    <li>Corporate Information</li>
+                    <li>Legal Notices</li>
+                    <li>Account</li>
+                    <li>Jobs</li>
+                    <li>Privacy</li>
+                    <li>Contact Us</li>
+                    <li>Only on Netflix</li>
+                </ul>
+            </div>
+
+
+        <footer>
+            <div class="bottom-left">
+                <div class="language-select">
+                    <select id="footer-language-select">
+                        <option value="english">English</option>
+                        <option value="spanish">Hindi</option>
+                        <!-- Add more languages as needed -->
+                    </select>
+                </div>
+                </div>
+                <li>© Netflix India</li>
+                </div>
+        </footer>
+    </main>
+
+    <script >function toggleDropdown(index) {
+    const dropdowns = document.querySelectorAll('.dropdown');
+    const dropdown = dropdowns[index];
+    const content = dropdown.querySelector('.dropdown-content');
+    const toggleSign = dropdown.querySelector('.toggle-sign');
+
+    if (content.style.display === 'block') {
+        content.style.display = 'none';
+        toggleSign.textContent = '';
+    } else {
+        content.style.display = 'block';
+        toggleSign.textContent = '';
+    }
+}
+</script>
+</body>
+</html>
+
